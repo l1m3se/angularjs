@@ -75,13 +75,24 @@ body {
 }
 
 /* CUSTOM STYLING BOOTSTRAP */
+.product-description {
+    margin-top:20px;
+    background: #f9f9f9;
+}
+.product-description-row {
+    background: #f9f9f9;
+}
 
 .modal-body {
     padding: 3rem;
+    
 }
 
 .modal-content {
     border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.18);
 }
 
 select {

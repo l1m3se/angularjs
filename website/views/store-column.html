@@ -1,9 +1,9 @@
 <!-- SHOP COLUMN VIEW -->
 <div class="row mb-5">
     <div dir-paginate="product in products | orderBy:sortProducts.value | itemsPerPage: rowLimits.value | filter: search"
-        class="col-lg-4 col-md-6 card px-md-5 pb-0 pt-5 border-bottom">
+        class="col-lg-4 col-md-6 card px-md-5 pb-0 pt-5">
         <img class="card-img" ng-src="{{ product.image }}" alt="Card image cap">
-        <div class="card-body d-flex flex-column justify-content-between">
+        <div class="card-body d-flex flex-column justify-content-between product-description" >
             <div class="pb-3">
                 <h5 class="card-title">{{ product.manufacture }} {{ product.productname }}</h5>
                 <p class="card-text">
